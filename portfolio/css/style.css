@@ -146,8 +146,15 @@ li {
     background-size: contain;
     background-color: #160210;
   }
+
   .about {
+    white-space: pre-wrap;
     margin: 0.1rem;
+    font-size: 15px;
+  }
+
+  .about p {
+    color: #696868;
   }
 
   .box1 {
