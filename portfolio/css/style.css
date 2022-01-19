@@ -21,6 +21,20 @@ body {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #241e35;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3b1936;
+  border-radius: 4px;
+}
+
 li {
   list-style: none;
 }
@@ -34,17 +48,14 @@ li {
   background: #eee;
   padding: 4rem;
   box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
-  border-radius: 30px;
+  border-radius: 25px;
   text-align: center;
+  margin: 8rem 0;
 }
 
 .profile-pic {
   border-radius: 50%;
   margin: 0 auto 2rem auto;
-}
-
-.profile {
-  margin-top: 8rem;
 }
 
 .profile span {
@@ -69,7 +80,6 @@ li {
 
 .portfolio {
   max-width: 886px;
-  margin: 8rem 0;
   box-sizing: border-box;
 }
 
@@ -96,4 +106,22 @@ li {
 .portfolio h2 {
   font-weight: normal;
   margin-bottom: 1rem;
+}
+
+.copy {
+  font-size: 24px;
+  color: #eee;
+  text-shadow: 2px 2px 16px black;
+  padding: 20px;
+}
+
+.about {
+  font-size: 20px;
+  align-items: center;
+  justify-items: center;
+  margin: 8rem;
+}
+
+.about p {
+  margin-top: 3rem;
 }
