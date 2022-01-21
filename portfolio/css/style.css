@@ -169,7 +169,7 @@ nav {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: #241e35;
   width: 100vw;
-  height: 8vh;
+  height: 6vh;
 }
 
 .nav-list {
@@ -198,6 +198,7 @@ nav {
     background-attachment: initial;
     background-size: contain;
     background-color: #160210;
+    overflow-x: hidden;
   }
 
   .about {
@@ -227,7 +228,7 @@ nav {
 
   .nav-list {
     position: absolute;
-    top: 8vh;
+    top: 5vh;
     right: 0;
     width: 50vw;
     height: 92vh;
