@@ -22,7 +22,6 @@ body {
   height: 100vh;
   color: #aeaeae;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 .container {
@@ -190,6 +189,10 @@ nav {
   height: 2px;
   background: #fff;
   margin: 8px;
+}
+
+body,html{
+  overflow-x: hidden;
 }
 
 @media (max-width: 700px) {
