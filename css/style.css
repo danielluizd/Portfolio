@@ -191,7 +191,8 @@ nav {
   margin: 8px;
 }
 
-body,html{
+body,
+html {
   overflow-x: hidden;
 }
 
