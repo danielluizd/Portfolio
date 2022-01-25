@@ -14,7 +14,7 @@ img {
 
 body {
   font-family: "Source Code Pro", monospace;
-  background: url("/img/test-background.jpg") no-repeat fixed top center;
+  background: url("/assets/background.jpg") no-repeat fixed top center;
   background-size: cover;
   display: grid;
   align-items: center;
@@ -198,6 +198,7 @@ nav {
     background-size: contain;
     background-color: #160210;
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 
   .about {
